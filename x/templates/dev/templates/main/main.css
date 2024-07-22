@@ -1,0 +1,49 @@
+html, body, article, aside, div, header {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 900px;
+  max-width: 1400px;
+}
+.container-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* height: 85%; */
+}
+.main-header{
+  width: 100%;
+  height: 15vh;
+  max-height: 200px;
+  background-color: antiquewhite;
+}
+.main-article{
+  /* background-color: aliceblue; */
+  width: 80%;
+  height: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  margin: 0 auto;
+}
+.nav-aside{
+  background-color: goldenrod;
+  height: 100vh;
+  width: 20%;
+  max-width: 200px;
+}
+.post-section{
+  color: black;
+  height: 125px;
+  border:1px solid lightgray;
+  padding: 2vh;
+  margin: 2% 4%;
+}
